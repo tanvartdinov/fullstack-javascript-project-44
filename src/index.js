@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greeting } from "./cli.js";
+import { greeting } from './cli.js';
 
 const ROUNDS = 3;
 
@@ -9,8 +9,8 @@ const game = (commonQuestion, getQuestion) => {
   console.log(commonQuestion);
 
   let countRightAnswers = 0;
-  while (true) {
-    const [ question, rightAnswer ] = getQuestion();
+  while (countRightAnswers === ROUNDS) {
+    const [question, rightAnswer] = getQuestion();
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
 
@@ -24,9 +24,8 @@ const game = (commonQuestion, getQuestion) => {
     }
     if (countRightAnswers === ROUNDS) {
       console.log(`Congratulations, ${name}!`);
-      break;
     }
   }
-}
+};
 
 export { game };
