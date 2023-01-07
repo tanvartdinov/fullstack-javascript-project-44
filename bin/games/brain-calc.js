@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { game } from '../../src/index.js';
+import game from '../../src/index.js';
 
 const getQuestion = () => {
   const getRandomInt = (min, max) => Math.floor(min + Math.random() * (max - min));

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { game } from '../../src/index.js';
+import game from '../../src/index.js';
 
 const calcGCD = (a, b) => {
   if (!b) {

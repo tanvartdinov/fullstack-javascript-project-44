@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import { game } from '../../src/index.js';
+import game from '../../src/index.js';
 
 const isPrime = (number) => {
-  for(let i = 2, s = Math.sqrt(number); i <= s; i++) {
-    if(number % i === 0) return false;
+  for (let i = 2, s = Math.sqrt(number); i <= s; i += 1) {
+    if (number % i === 0) return false;
   }
   return number > 1;
 };

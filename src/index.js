@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greeting } from './cli.js';
+import greeting from './cli.js';
 
 const ROUNDS = 3;
 
@@ -28,4 +28,4 @@ const game = (commonQuestion, getQuestion) => {
   }
 };
 
-export { game };
+export default game;
