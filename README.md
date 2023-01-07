@@ -7,3 +7,6 @@
 
 #### Пример игры brain-calc
 [![asciicast](https://asciinema.org/a/ABgNkYIq4XITKUlIfpVyvXgIU.svg)](https://asciinema.org/a/ABgNkYIq4XITKUlIfpVyvXgIU)
+
+#### Пример игры brain-gcd
+[![asciicast](https://asciinema.org/a/MngpyQqOUytIw1kKNfxldWx6N.svg)](https://asciinema.org/a/MngpyQqOUytIw1kKNfxldWx6N)
