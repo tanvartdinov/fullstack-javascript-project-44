@@ -9,7 +9,7 @@ const game = (commonQuestion, getQuestion) => {
   console.log(commonQuestion);
 
   let countRightAnswers = 0;
-  while (countRightAnswers === ROUNDS) {
+  while (countRightAnswers !== ROUNDS) {
     const [question, rightAnswer] = getQuestion();
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
