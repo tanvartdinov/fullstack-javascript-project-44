@@ -23,7 +23,7 @@ const createQuestion = (sequence, missedIndex) => {
       result = `${result} ${sequence.at(i)}`;
     }
   }
-  return result;
+  return result.trim();
 };
 
 const getQuestion = () => {
